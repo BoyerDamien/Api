@@ -65,7 +65,7 @@ func (s *apiImpl) doRequest(reqType, uri string, data interface{}) (APIResponse,
 	if err != nil {
 		return APIResponse{}, err
 	}
-	return APIResponse{response: resp, data: respData}, nil
+	return APIResponse{Response: resp, Data: respData}, nil
 }
 
 func New(url string) API {
