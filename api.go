@@ -26,8 +26,8 @@ type apiImpl struct {
 }
 
 type APIResponse struct {
-	response *http.Response
-	data     []byte
+	Response *http.Response
+	Data     []byte
 }
 
 /****************************************************************************************
